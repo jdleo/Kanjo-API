@@ -23,7 +23,8 @@
   "homepage": "https://github.com/jdleo/Kanjo-API#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "sentiment": "^5.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.4"

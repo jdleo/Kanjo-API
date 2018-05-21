@@ -10,3 +10,16 @@ The microservice inside the container defaults to port 8000, but you can redirec
 
 If you just want to pull the image, do:  
 ```docker pull jdleo/kanjo```
+
+## Using the microservice  
+The endpoint for sentiment analysis lies at ```localhost:8000/analyze```  
+  
+Pass the body of text as a "text" parameter in a POST request to get the results.  
+For example, here's a sample cURL command:  
+```bash
+curl -X POST \
+  http://localhost:8000/analyze \
+  -H 'Cache-Control: no-cache' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: a9b2a426-7b35-47de-92a2-49455d401459' \
+  -d text=text%20goes%20here```

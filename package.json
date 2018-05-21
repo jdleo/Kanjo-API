@@ -1,0 +1,23 @@
+{
+  "name": "kanjo",
+  "version": "1.0.0",
+  "description": "microservice for sentiment analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdleo/Kanjo-API.git"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis"
+  ],
+  "author": "John Leonardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdleo/Kanjo-API/issues"
+  },
+  "homepage": "https://github.com/jdleo/Kanjo-API#readme"
+}
